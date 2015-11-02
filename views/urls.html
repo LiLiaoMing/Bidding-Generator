@@ -1,0 +1,61 @@
+<br/>
+<div class="row">
+	<div class="col-xs-2">
+  		<span class="pull-right text-success">Title</span>
+	</div>
+  	<div class="col-xs-8">
+  		<select ng-model="title" ng-change="setTitle()">
+			<option ng-repeat="t in titles">{{t}}</option>
+		</select>
+  	</div>
+  	
+</div>
+
+<br/>
+<div class="row">
+	<div class="col-xs-2">
+  		<span class="pull-right text-success">Search Filter</span>
+	</div>
+  	<div class="col-xs-8">
+  		<input type="text" ng-model="filter" ng-keypress="addFilter($event)">
+  		<br/>
+  		<div style="margin-top:10px">
+  			<button ng-repeat="filter in filters" class="filter-btn" ng-click="removeFilter(filter.index)">{{filter.value}}</button>
+  		</div>
+  	</div>
+  	
+</div>
+
+<br/>
+<div class="row">
+  <div class="col-xs-2">
+      <span class="pull-right text-success">Visible/Disable</span>
+  </div>
+    <div class="col-xs-8">
+      <label ng-repeat="(key, value) in urlItemShows" style="margin-right:20px;">
+        <input type="checkbox" ng-checked="value" ng-click="setUrlItemShows(key, value)">&nbsp;{{key}}
+      </label>
+    </div>
+</div>
+
+<br/>
+<div style="height:400px; overflow:scroll; overflow-x:hidden; background-color:#efe;">
+	<div class="row" ng-repeat="item in urls">
+		<div class="col-xs-offset-2 col-xs-8">
+	  		<div class="text-info">{{item.desc}}</div>
+	  		<div style="font-weight:bold">{{item.url}}</div>
+        <div>{{item.keyword}}</div>
+	  		<br>
+		</div>
+	  	<div class="col-xs-2">
+	  		<input type="checkbox" ng-model="isChecked[item.index]" ng-click="setUrl(item.index)" ng-chekced="isChecked[item.index]">
+	  	</div>
+	</div>
+</div>
+<br/>
+<br/>
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <pre class="bg-info">{{urlComment}}</pre>
+  </div>
+</div>

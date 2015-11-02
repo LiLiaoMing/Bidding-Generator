@@ -1,0 +1,36 @@
+<br/>
+<div class="row">
+	<div class="col-xs-3">
+  		<span class="pull-right text-success">Ending</span>
+	</div>
+  	<div class="col-xs-7">
+  		<select ng-model="ending" ng-change="remake()">
+			<option ng-repeat="ending in endings">{{ending}}</option>
+		</select>
+  	</div>
+  	<div class="col-xs-2">
+  		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedEnding"> -->
+  	</div>
+</div>
+
+<br/>
+<div class="row">
+	<div class="col-xs-3">
+  		<span class="pull-right text-success">Name</span>
+	</div>
+  	<div class="col-xs-7">
+  		<input type="text" ng-model="myName" ng-change="remake()">
+  	</div>
+  	<div class="col-xs-2">
+  		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedName"> -->
+  	</div>
+</div>
+<br/>
+<br/>
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <pre class="bg-info">{{afterword}}</pre>
+  </div>
+</div>
+
+

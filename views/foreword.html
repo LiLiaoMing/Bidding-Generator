@@ -1,0 +1,64 @@
+<br/>
+<div class="row">
+    <div class="col-xs-3">
+        <span class="pull-right text-success">Keyword</span>
+    </div>
+    <div class="col-xs-7">
+        <input type="text" ng-model="keyword" ng-change="remake()">
+    </div>
+    <div class="col-xs-2">
+      <!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedGreating"> -->
+    </div>
+</div>
+
+<br/>
+<div class="row">
+	<div class="col-xs-3">
+  		<span class="pull-right text-success">Greating</span>
+	</div>
+  	<div class="col-xs-7">
+  		<select ng-model="greating" ng-change="remake()">
+			 <option ng-repeat="greating in greatings">{{greating}}</option>
+		</select>
+  	</div>
+  	<div class="col-xs-2">
+  		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedGreating"> -->
+  	</div>
+</div>
+
+<br/>
+<div class="row">
+	<div class="col-xs-3">
+  		<span class="pull-right text-success">Denomination</span>
+	</div>
+  	<div class="col-xs-7">
+  		<select ng-model="denom" ng-change="remake()">
+			<option ng-repeat="denom in denoms">{{denom}}</option>
+		</select>
+  	</div>
+  	<div class="col-xs-2">
+  		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedDenom"> -->
+  	</div>
+</div>
+
+<br/>
+<div class="row">
+	<div class="col-xs-3">
+  		<span class="pull-right text-success">Name</span>
+	</div>
+  	<div class="col-xs-7">
+  		<input type="text" ng-model="name" ng-change="remake()">
+  	</div>
+  	<div class="col-xs-2">
+  		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedName"> -->
+  	</div>
+</div>
+<br/>
+<br/>
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <pre class="bg-info">{{foreword}}</pre>
+  </div>
+</div>
+
+

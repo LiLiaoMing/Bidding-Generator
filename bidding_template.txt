@@ -1,0 +1,65 @@
+- Languages, operating systems and other technology and experience.
+
+
+- You should also include descriptions of the projects you've worked on in context.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+-Tell a story about your experience, and what you've done that would qualify you for the job you're applying for.
+-A great resume should be easy to read, and at a glance .
+-Of course your should have no typos, grammatical errors or formatting inconsistencies.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+Profesional profile
+
+Hello! My name is Octavian Cioaca and since 2006 I’m taking immediate advantage, often unethically of css and javascripts files.
+
+Because I’m lazy, I work and adapt to new technologies quickly and effectively. I enjoy using design patterns and OO front-end application architecture to create modularized reusable code, complex user interactions and fascinating user journeys!
+
+I like to develop 60FPS websites and high-quality software via TDD/BDD in iterative/agile software application development and work closely with development team members.
+
+One important side of my workflow is to review products development strategy, establish goals and lead face-to-face brainstorming sessions with A-Level executives on the marketing, technical and design sides of client's business.
+
+Frequently I’m taking ownership of the delivery, timeliness and quality of the module assigned while working on multiple projects at one time. I provide constructive criticism around wire-framing, creative, test setup and customer communication skills.
+
+-Specialties
+
+flash/flex conversions to html5 apps
+massively multiplayer online social games
+niche social networks
+netlog & google APIs
+facebook sdk & twitter APIs
+crm & erp interfaces
+enterprise internal websites
+high frequency trading app development
+
+-Developed apps.
+live support
+e-commerce
+custom traffic analytics
+digital analytics
+multimedia
+financial & banking
+online gaming & betting systems
+SAAS apps
+
+- Language Skills
+English, Chinese
+
+- Knowledge (Software & Tech skills)
+
+Programming/Languages: Java (J2SDK v1.3, J2EE, EJB, Servlets, JSP, Struts, J2ME, JavaBeans, RMI, JDBC, Java Applets); C; C++; Visual asic; SharePoint; .Net; PHP; MySQL; HTML
+Source Code Control: Visual SourceSafe, Ant
+Databases: Oracle 8.x/9.x, SQL Server, MS Access
+Design & IDE Tools: Rational Rose, UML, WSAD, Visual Café, VJ++, WebLogic
+Office Tools: MS Word, Excel, PowerPoint, Outlook, Visio
+Operating Systems: Windows 7/Vista/Server 2008, Mac OS X
+
+I have [3 years experience of]  [PHP/MySQl/HTML], [3 years experience of]  [PHP/MySQl/HTML]
+
+[
+	{ year, skills },
+	{ year, skills }
+]

@@ -1,0 +1,606 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getInventoryWa",
+				"getInventoryWatchStatus"
+			],
+			[
+				"watch",
+				"watchwood"
+			],
+			[
+				"IiIvne",
+				"IiInventoryWatchhood"
+			],
+			[
+				"inventory_",
+				"inventory_watchhood"
+			],
+			[
+				"Li",
+				"Libraries"
+			],
+			[
+				"Hos",
+				"Hosted"
+			],
+			[
+				"url",
+				"urlItems"
+			],
+			[
+				"urlI",
+				"urlItemShows"
+			],
+			[
+				"setUrl",
+				"setUrlItemShows"
+			],
+			[
+				"getU",
+				"getUrlItemShows"
+			],
+			[
+				"getUr",
+				"getUrlItemShows"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"myN",
+				"myName"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"skill",
+				"skillDescription"
+			],
+			[
+				"setY",
+				"setYYear"
+			],
+			[
+				"skil",
+				"skill_description"
+			],
+			[
+				"skill_",
+				"skill_descriptions"
+			],
+			[
+				"version",
+				"version_type"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"after",
+				"afterword"
+			],
+			[
+				"borrow",
+				"borrower_id"
+			],
+			[
+				"curre",
+				"current_user"
+			],
+			[
+				"firn",
+				"friend"
+			],
+			[
+				"borr",
+				"borr_pk"
+			],
+			[
+				"trans",
+				"transactions"
+			],
+			[
+				"base",
+				"base64_images"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"respo",
+				"response"
+			],
+			[
+				"getL",
+				"getLocationId"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inventor",
+				"inventory_id"
+			],
+			[
+				"inveon",
+				"inventory_id"
+			],
+			[
+				"G",
+				"getFriendList"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"onC",
+				"onclick	Attr"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"session_us",
+				"session_unset"
+			],
+			[
+				"signup_",
+				"signup_btn"
+			],
+			[
+				"sign",
+				"signup"
+			],
+			[
+				"sig",
+				"signup_btn"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bea",
+				"break-word"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"inve",
+				"inventory_ids"
+			],
+			[
+				"invenot",
+				"inventory_id"
+			],
+			[
+				"own",
+				"owner_id"
+			],
+			[
+				"find",
+				"findFirst"
+			],
+			[
+				"inven",
+				"inventory"
+			],
+			[
+				"tran",
+				"transaction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "viewin",
+		"selected_items":
+		[
+			[
+				"viewin",
+				"View In Browser"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"SFTP",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"sftp",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ',' ')).read()); print 'Please restart Sublime Text to finish installation'",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/G/wamp/www/bidding_generator/angularSam.sublime-project",
+		"/G/wamp/www/bidding_generator/index.html",
+		"/G/wamp/www/angular_test/index.html",
+		"/G/wamp/www/bidding_generator/bidding_template.txt",
+		"/C/Users/RKC/Documents/test.html",
+		"/G/dev/_current/ikeo/ikeo/service/app.php",
+		"/G/dev/_current/ikeo/ikeo/service/service.php",
+		"/G/wamp/www/angular_test/controllers/directive.js",
+		"/G/wamp/www/angular_test/js/directives.js",
+		"/G/wamp/www/angular_test/templates/directives/contactCard.html",
+		"/G/wamp/www/angular_test/views/directive.html",
+		"/G/wamp/www/angular_test/js/filters.js",
+		"/G/wamp/www/angular_test/js/routes.js",
+		"/G/wamp/www/angular_test/js/services.js",
+		"/G/wamp/www/angular_test/views/404.html",
+		"/G/wamp/www/angular_test/views/welcome.html",
+		"/G/dev/_current/nodejs/test/angular_test.sublime-project",
+		"/G/wamp/www/angular_test/app/directive/directive.html",
+		"/G/wamp/www/angular_test/app/directive/directive.js",
+		"/G/wamp/www/angular_test/app/app.js",
+		"/G/wamp/www/angular_test/app/index.html",
+		"/G/wamp/www/angular_test/app/app.css",
+		"/G/wamp/www/angular_test/app/directive/view1_test.js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"G:\\dev\\_current\\greatdane\\greatdane\\www",
+			"G:\\dev\\_current\\greatdane\\greatdane"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$buf['isLike'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);\n			$buf['isWatch'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);",
+			"getInventoryWatchStatus",
+			"iswatch",
+			"$buf['isLike'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);",
+			"function getInventoryLikeStatus",
+			"getInventoryLikeStatus",
+			"isLike",
+			"inWhere",
+			"::find(",
+			"getInventoryWatchCount",
+			"DirectiveCtrl",
+			">",
+			"$category = IiInventoryCategories::findFirst(",
+			"$category = IiInventoryCategories::findFirst(\n				array(\n					\"id=$inventory->category_id\"\n				)\n			);",
+			"$category = IiInventoryCategories::findFirst(",
+			"$category = IiInventoryCategories::findFirst(\n					array(\n						\"id=$inventory->category_id\"\n					)\n				);",
+			"getInventoryList",
+			"getInventory",
+			"$buf['likes'] = self::getInventoryLikeCount($inventory->id);",
+			"getInventoryList",
+			"getInventoryLikeCount",
+			"getInventoryWatchCount",
+			"InventoryArraryResponseStructure",
+			"InventoryArraryResponseStructure\n",
+			"InventoryArraryResponseStructure",
+			"getInventoryList",
+			"InventoryArraryWithUserResponseStructure",
+			"InventoryArraryResponseStructure",
+			"getInventoryList",
+			"addTrans",
+			"sendPN",
+			"IiInventory",
+			"updateTransaction",
+			"sendPN",
+			"addTransaction",
+			"addTrans",
+			"Invalid token",
+			"TransactionParamStructure",
+			"addTransaction",
+			"function time()",
+			"time()",
+			"time",
+			"new Date",
+			"TransactionArrayResponseStructure",
+			"getTransactionListByInventory",
+			"setInventoryLike",
+			"}\n",
+			"Google Hosted Libraries",
+			"Analytics",
+			"Tracking",
+			"setUrlItemShows",
+			"urlService",
+			"setUrlItemShows",
+			"urlItems",
+			"urlItemShows",
+			"setUrls",
+			"indexOf",
+			"skill_description",
+			"d",
+			"skillChecked",
+			"GCM",
+			"API_ACCESS_KEY",
+			"_SN",
+			"getInventoryFeed",
+			"getInventorySearchItem",
+			"getInventoryFeed",
+			"Service",
+			"getInventoryFeed($pk, $filter)getInventoryFeed($pk, $filter)",
+			"getInventoryFeed",
+			"Id",
+			"getInventoryComments",
+			"InventoryArraryWithUserResponseStructure",
+			"getInventoryFeed",
+			"feed",
+			"InventoryUpdateParamStructure",
+			"InventoryParamStructure",
+			"addInventory",
+			"add inventory ",
+			"-sm-",
+			">\n",
+			"title",
+			"Title",
+			"experience",
+			"Experiences",
+			"before",
+			"Before",
+			"experiences",
+			"Experiences",
+			"addNewExGroup",
+			"repeat",
+			"getAfterword",
+			"foreword",
+			"afterword",
+			"description",
+			"afterword",
+			"$scope.afterword",
+			"getAfterword",
+			"afterword",
+			"Afterword",
+			"<br/>\n<br/>\n<div class=\"row\">\n<div class=\"col-sm-8 col-sm-offset-2\">\n<pre class=\"bg-info\">{{afterword}}</pre>\n</div>\n</div>\n\n",
+			"getName",
+			"foreword",
+			"name",
+			"greating",
+			"Greating",
+			"Foreword",
+			"foreword",
+			"name",
+			"greating",
+			"Greating",
+			"CustomerName",
+			"customerName",
+			"Foreword",
+			"foreword",
+			"customerCustomerName",
+			"Name",
+			"name",
+			"customerName",
+			"name",
+			" \"</",
+			"mainApp",
+			"sendPN",
+			"send_Pn",
+			"send_P",
+			"send_A",
+			"testPush",
+			"getTransactionListByInventory",
+			"getFriendList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$buf['isLike'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);\n			$buf['isWatch'] = self::getInventoryWatchStatus($inventory->id, $app->request->user->id);",
+			"$buf['isLike'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);\n			$buf['isWatch'] = self::getInventoryLikeStatus($inventory->id, $app->request->user->id);",
+			"if ($inventory->category_id != null)\n			{\n				$category = IiInventoryCategories::findFirst(\n					array(\n						\"id=$inventory->category_id\"\n					)\n				);\n			}",
+			"$buf['likes'] = self::getInventoryLikeCount($inventory->id);\n			$buf['watches'] = self::getInventoryWatchCount($inventory->id);",
+			"skillDescription",
+			"-xs-",
+			"urls",
+			"Urls",
+			"title",
+			"Title",
+			"after",
+			"After",
+			"beforeComment",
+			"BeforeComment",
+			"description",
+			"Description",
+			"getCustomerName",
+			"afterword",
+			"myName",
+			"ending",
+			"Ending",
+			"Afterword",
+			"afterword",
+			"myName",
+			"ending",
+			"Ending",
+			"MyName",
+			"myName",
+			"Afterword",
+			"afterword",
+			"customerName",
+			"CustomerName",
+			"customerName",
+			"biddingApp",
+			"res",
+			"if (!$category)\n				$buf['category_name'] = null;\n			else\n				$buf['category_name'] = $category->name;",
+			"self::getInventoryLikeCount($inventory->id);",
+			"self::getInventoryLikeCount($inventory_id);"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "angularSam.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
