@@ -8,10 +8,7 @@
 			<option ng-repeat="t in titles">{{t}}</option>
 		</select>
   	</div>
-  	
 </div>
-
-<br/>
 <div class="row">
 	<div class="col-xs-2">
   		<span class="pull-right text-success">Search Filter</span>
@@ -25,11 +22,9 @@
   	</div>
   	
 </div>
-
-<br/>
 <div class="row">
   <div class="col-xs-2">
-      <span class="pull-right text-success">Visible/Disable</span>
+      <span class="pull-right text-success">Visible</span>
   </div>
     <div class="col-xs-8">
       <label ng-repeat="(key, value) in urlItemShows" style="margin-right:20px;">
@@ -37,11 +32,10 @@
       </label>
     </div>
 </div>
-
-<br/>
-<div style="height:400px; overflow:scroll; overflow-x:hidden; background-color:#efe;">
+<div style="height:300px; overflow:scroll; overflow-x:hidden; background-color:#efe;">
 	<div class="row" ng-repeat="item in urls">
 		<div class="col-xs-offset-2 col-xs-8">
+        <!-- <div class="text-info">{{item.index}}</div> -->
 	  		<div class="text-info">{{item.desc}}</div>
 	  		<div style="font-weight:bold">{{item.url}}</div>
         <div>{{item.keyword}}</div>

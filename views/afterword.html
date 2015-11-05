@@ -5,8 +5,8 @@
 	</div>
   	<div class="col-xs-7">
   		<select ng-model="ending" ng-change="remake()">
-			<option ng-repeat="ending in endings">{{ending}}</option>
-		</select>
+			 <option ng-repeat="ending in endings">{{ending}}</option>
+		  </select>
   	</div>
   	<div class="col-xs-2">
   		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedEnding"> -->
@@ -19,7 +19,9 @@
   		<span class="pull-right text-success">Name</span>
 	</div>
   	<div class="col-xs-7">
-  		<input type="text" ng-model="myName" ng-change="remake()">
+      <select ng-model="myName" ng-change="remake()">
+       <option ng-repeat="nn in myNames">{{nn}}</option>
+      </select>
   	</div>
   	<div class="col-xs-2">
   		<!-- <input type="checkbox" ng-click="remake()" ng-model="isSelectedName"> -->

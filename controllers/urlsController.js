@@ -23,7 +23,7 @@ mainApp.controller('UrlsController', function($scope, urlService, dbService) {
 	$scope.setUrl = function(_index) {
 		if ($scope.isChecked[_index])
 		{
-			newUrl = $scope.urls[_index];
+			newUrl = $scope.originUrls[_index];
 			$scope.selectedUrls.push(newUrl);
 			$scope.urlComment = urlService.getUrlComment();
 		}
@@ -87,7 +87,6 @@ mainApp.controller('UrlsController', function($scope, urlService, dbService) {
 			});
 			if (flag == true)
 			{
-				item.index = $scope.urls.length;
 				$scope.urls.push(item);
 			}
 		});

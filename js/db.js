@@ -18,25 +18,30 @@ mainApp.service('dbService', function() {
 	        title : "JavaScript Libraries",
 	        items : [
 		        "jQuery",
+		        "AngularJS",
+		        "SwipeJS",
+		        "KnockoutJS",
+		        "Backbone.js",
+		        "Google API",
+		        "Google Hosted Libraries",
+		        "Twitter Platform",
+		        "LinkedIn Platform API",
+		        "Facebook for Websites",
 		        "Prototype",
 		        "GSAP",
-		        "AngularJS",
 		        "Froogaloop",
 		        "FitVids.JS",
-		        "Google Hosted Libraries",
 		        "Modernizr",
-		        "SwipeJS",
 		        "EnquireJS",
-		        "Isotope",
-		        "KnockoutJS",
+		        "Isotope",        
 		        "Lightbox",
 		        "Fancybox",
 		        "SimplyScroll",
 		        "SizzleJS",
-		        "Twitter Platform",
 		        "Hover Intent",
 		        "WebGL",
-		        "Three.js"
+		        "Three.js",
+		        "MooTools"
 
 		    ]
 		},
@@ -63,9 +68,50 @@ mainApp.service('dbService', function() {
 		        "Wordpress",
 		        "Joomla",
 		        "Drupal", 
+		        "Magento",
+		        "Plugins",
+		        "Theme template",
+		        "Widgets",
 		        "CodeIgniter",
 		        "Squarespace",
 		        "Tumblr"
+		    ]
+		},
+		{
+	        title : "Customer Relationship Management",
+	        items : [
+		        "AgileCRM",
+		        "SurgarCRM",
+		        "ZohoCRM"
+		    ]
+		},
+		{
+	        title : "Plugins",
+	        items : [
+		        "",
+		        ""
+		    ]
+		},
+		{
+	        title : "Widgets",
+	        items : [
+		        "Twitter Timeline",
+		        "Facebook Like Box",
+		        "Google Font API",
+		        "NextGEN Gallery",
+		        "WP PageNavi",
+		        "Shortcodes Ultimate",
+		        "Pinterest",
+		        "Twemoji",
+		        "Shutterstock",
+		        "WP Polls",
+		        "JetPack",
+		         "Contact Form 7",
+		         "MailChimp",
+		         "ThemePunch",
+		         "AcyMailing",
+		         "Typography"
+		        
 		    ]
 		},
 		{
@@ -196,7 +242,8 @@ mainApp.service('dbService', function() {
 		        "Cart Functionality", 
 		        "Shopify",
 		        "Squarespace Commerce",
-		        "Volusion"
+		        "Volusion",
+		        "VirtueMart"
 		    ]
 		},
 		{
@@ -268,207 +315,178 @@ mainApp.service('dbService', function() {
 		    ]
 		},
 		{
+	        title : "Testing",
+	        items : [
+		        "Unit Testing",
+		        "Functional Testing",
+		        "iOS Mobile UI Testing", 
+		        "Web UI Testing",
+		        "Load/Performance Testing"
+		    ]
+		},
+		{
+	        title : "Testing Tools",
+	        items : [
+		        "Appium",
+		        "Selenium",
+		        "TestNG", 
+		        "Testlink",
+		        "MonkeyTalk",
+		        "Testmunk",
+		        "Soasta"
+		    ]
+		},
+		{
 	        title : "Language",
 	        items : [
 		        "English",
 		        "Chinese"
 		    ]
 		}
+
     ];
 
     var urls = [
+        
         {
-        	desc:"DOZ platform provides unique content marketing with the best webmarketing experts.",
-            url:"https://app.doz.com/",
-            keyword:"AngularJS, Crowdsourcing, SEO, Marketing, SMO, API, PHP, Responsive",
-            role:"AngularJS, SEO, PHP, Responsive"
-        },
-        {
-        	desc:"Worktile is a simple and powerful team collaboration tools to solve efficiency, communication, sharing and recording problems. Work with your colleagues anytime and anywhere.",
-            url:"https://worktile.com/",
-            keyword:"AngularJS, Mobile, Tools, Collaboration, HTML5, CSS3, jQuery, Web Sockets, Redis, Socket.IO, Bootstrap, Node.js",
-            role:"AngularJS, jQuery, Web Sockets, HTML5, CSS3, Bootstrap, Socket.IO"
-        },
-        {
-        	desc:"Create email reminders in seconds",
-            url:"http://reme.io/",
-            keyword:"AngularJS, HTML5, CSS3, jQuery",
-            role:"AngularJS, HTML5, CSS3, jQuery"
-        },
-        {
-        	desc:"Textile Machine Spare Parts Supplier: One-Stop Shop",
-            url:"http://behrisbaf.com/#!/en/home",
-            keyword:"AngularJS, Shopping, jQuery, Bootstrap, CSS3",
-            role:"I fixed and updated front-end working with AngularJS, Bootstrap, CSS3"
-        },
-        {
-        	desc:"Educando is an online school management platform that allows you to simplify everyday tasks and easily share information between students, teachers and parents.",
-            url:"http://tryme.educando.pt/",
-            keyword:"AngularJS, Bootstrap, jQuery, School Management, Planning",
-            role:"AngularJS, Bootstrap, jQuery, Front-end update"
-        },
-        {
-        	desc:"Fitblok is a One-Page Web app, which provides users with a gym-like experience and enables fitness trainers to develop their own following.",
-            url:"http://domainnamesales.com/domain/fitblok.com",
-            keyword:"AngularJS, jQuery, 3rd Party Plugins Itegration",
-            role:"AngularJS, jQuery"
-        },
-        {
-        	desc:"NewlyWish is a simple and managed registry experience for the modern couple.",
-            url:"https://www.newlywish.com/",
-            keyword:"AngularJS, Ecommerce, Bootstrap, jQuery",
-            role:"AngularJS, Ecommerce, Bootstrap, jQuery"
-        },
-        {
-        	desc:"A Q&A site for home improvement questions. Get free home advice from Redbeacon experts within 24 hours.",
-            url:"https://www.redbeacon.com/",
-            keyword:"AngularJS, Responsive, Bootstrap, SASS, jQuery, Django",
+        	desc:"Wedding Filmmakers' Website",
+            url:"http://hauke.co.za/",
+            keyword:"Wordpress, PHP, SSL, Vimeo, Google Maps",
             role:""
         },
         {
         	desc:"",
-            url:"http://aedle.net/en",
-            keyword:"Apache, Laravel, Google Analytics, jQuery, Euro, PounSterling, Mobile, AJAX Libraries API, Google Maps API, HTML5, CSS",
+            url:"http://divinespace.co.za/",
+            keyword:"Wordpress, PHP, SSL, WooCommerce, Facebook Domain Insights, Google Analytics, Twitter Platform, LinkedIn Platform API, LinkedIn Share Plugin, Facebook Like Box",
             role:""
         },
         {
-        	desc:"Healthcare company site",
-            url:"http://www.pelotonequity.com/",
-            keyword:"GoDaddy DNS, ASP.NET, Google Analytics, jQuery, Google Hosted Libraries, Google Font API, AJAX Libraries API",
+        	desc:"Room Booking Site",
+            url:"http://thebend.co.za/",
+            keyword:"Wordpress, PHP, SSL, Lightbox",
             role:""
         },
         {
-        	desc:"With cake teacher you will learn cake decorating step by step from the comfort of your own home.",
-            url:"http://www.caketeacher.com/",
-            keyword:"Apache, HostGator, Joomla, PHP, Facebook Custom Audiences, Google Analytics, jQuery, Facebook SDK, SwipeJS, Vimeo, Google Font API, RSS, OpenSSL",
+        	desc:"Gold Trading Site",
+            url:"http://www.goldcapital.co.za/",
+            keyword:"Wordpress, PHP, WooCommerce, Google Analytics, Google API, LiveChat, Google Maps",
             role:""
         },
         {
-        	desc:"Make an online reservation",
-            url:"http://canaves.com/",
-            keyword:"Apache, Parallels SSL, SPF, Wordpress, HTML5, jQuery, jQuery UI",
+        	desc:"Training System",
+            url:"http://mypeergroup.com/",
+            keyword:"Wordpress, PHP, Google Analytics",
             role:""
         },
         {
-        	desc:"Online shop",
-            url:"http://www.rapha.cc/rd/en/",
-            keyword:"nginx, GeoTrust SSL, RapidSSL, Linode, Wordpress, PHP, Froogaloop, FitVids.JS, jQuery, Vimeo, Pound Sterling, HTML5, CSS3",
+        	desc:"PURE Nutrition Technology",
+            url:"http://purenutrition.co.za/",
+            keyword:"Wordpress, PHP, Google Analytics, Facebook SDK, Twitter Timeline",
             role:""
         },
         {
-        	desc:"Hillside Park website",
-            url:"http://www.hillsidepark.net/",
-            keyword:"Apache, DreamHost Hosting, Dreamhost DNS, Wordpress, PHP, Google Analytics, jQuery",
-            role:""
-        },
-        {
-        	desc:"Online shop",
-            url:"http://www.maderna.sk/",
-            keyword:"Apache, PHP, Google Analytics, jQuery",
-            role:""
-        },
-        {
-        	desc:"Blogsite",
-            url:"http://www.need2know.co.uk/",
-            keyword:"IIS 7, Wordpress, PHP, ASP.NET, WooCommerce",
-            role:""
-        },
-        {
-        	desc:"Online furniture shop",
-            url:"http://www.nostalgiaantiques.com.au/",
-            keyword:"Drupal, PHP, Google Maps",
-            role:""
-        },
-        {
-        	desc:"Restaurant Website",
-            url:"http://arcinspirations.com/trio",
-            keyword:"CodeIgniter, SwipeJS, Modernizr, EnquireJS, jQuery, Isotope, HTML5",
-            role:""
-        },
-        {
-        	desc:"Furniture company website",
-            url:"http://www.blacksofsopwell.com/",
-            keyword:"PHP, jQuery, Lightbox, Fancybox",
+        	desc:"Training and Consultancy",
+            url:"http://www.protential.ae/",
+            keyword:"Wordpress, PHP, WooCommerce, Vimeo, RSS",
             role:""
         },
         {
         	desc:"",
-            url:"http://swimpclothing.com/",
-            keyword:"Wordpress, jQuery, Youtube, ",
+            url:"http://alarabiya99.ae/",
+            keyword:"Wordpress, PHP, WooCommerce, Google Analytics, WP Plugins",
             role:""
         },
         {
         	desc:"",
-            url:"http://thinkmac.co.uk/",
-            keyword:"Wordpress, PHP, Twitter Platform, Hover Intent",
+            url:"http://abudhabiweek.ae/",
+            keyword:"Wordpress, PHP, Google Analytics",
+            role:""
+        },
+        {
+        	desc:"News Site",
+            url:"http://wadup.com.ng/",
+            keyword:"Wordpress, PHP, SSL, Google Adsense, Google Analytics, RSS",
+            role:""
+        },
+        {
+        	desc:"Working Skills Traning",
+            url:"http://www.getsmarter.co.za/",
+            keyword:"",
+            role:""
+        },
+        {
+        	desc:"BabyCare Site",
+            url:"http://www.calorababy.co.za/",
+            keyword:"Joomla, PHP, Google Adsense, Google Analytics, RSS",
+            role:""
+        },
+        {
+        	desc:"Flights Booking System",
+            url:"https://www.travelstart.com.eg/",
+            keyword:"",
             role:""
         },
         {
         	desc:"",
-            url:"http://www.aktive.cz/",
-            keyword:"PHP",
+            url:"http://e-xpedition.ru/",
+            keyword:"PHP, Google Adsense, Google Analytics, RSS",
+            role:""
+        },
+        {
+        	desc:"English SMS Site",
+            url:"http://englishsms.in/",
+            keyword:"Joomla, PHP, Google Adsense, Google Analytics, Facebook SDK, SSL",
+            role:""
+        },
+        {
+        	desc:"The Council for the Regulation of Engineering Site",
+            url:"http://www.coren.gov.ng/",
+            keyword:"Joomla, PHP",
+            role:""
+        },
+        {
+        	desc:"Online Horse Shop",
+            url:"http://www.equishop.sk/",
+            keyword:"Joomla, PHP, Google Analytics, Euro, AcyMailing",
+            role:""
+        },
+        {
+        	desc:"Hotel Booking System",
+            url:"http://apartman-strbske-pleso.sk/",
+            keyword:"Joomla, PHP, DoubleClick.Net, Google Analytics",
             role:""
         },
         {
         	desc:"",
-            url:"http://www.stopin-praha.cz/",
-            keyword:"PHP",
+            url:"http://www.zilinadnes.sk/",
+            keyword:"Joomla, PHP, DoubleClick.Net, Facebook Like Box",
             role:""
         },
         {
-        	desc:"",
-            url:"http://www.paragraphny.com/",
-            keyword:"Squarespace",
+        	desc:"Real Estate Solutions",
+            url:"http://spectrumproperties.co.ug/",
+            keyword:"Wordpress, PHP, AngularJS, Pinterest",
             role:""
         },
         {
-        	desc:"",
-            url:"http://www.kadernictvi-iren.cz/",
-            keyword:"PHP",
+        	desc:"Insurance tailor-made for women",
+            url:"https://www.firstforwomen.co.za/",
+            keyword:"Drupal, ASP.NET, PHP, Google Analytics, SessionCam",
             role:""
         },
         {
-        	desc:"",
-            url:"http://www.vlasy.cz/",
-            keyword:"Wordpress, PHP, WooCommerce, SwipeJS",
+        	desc:"Second-hand Household Goods",
+            url:"http://www.cashconverters.co.za/",
+            keyword:"Drupal, ASP.NET, PHP, Google Analytics, Visa",
             role:""
         },
         {
-        	desc:"",
-            url:"http://www.darkov.cz/",
-            keyword:"Wordpress, PHP, ASP.NET",
-            role:""
-        },
-        {
-        	desc:"",
-            url:"http://www.allcredit.cz/",
-            keyword:"PHP",
-            role:""
-        },
-        {
-        	desc:"",
-            url:"http://hoteldelpintor.com/",
-            keyword:"Wordpress, PHP",
-            role:""
-        },
-        {
-        	desc:"",
-            url:"http://lodges.co.uk/",
-            keyword:"Wordpress, PHP",
-            role:""
-        },
-        {
-        	desc:"",
-            url:"http://somethingspecialgiftbaskets.com/",
-            keyword:"Wordpress, WooCommerce",
-            role:""
-        },
-        {
-        	desc:"",
-            url:"http://devbox.ikeo.com/apidoc/",
-            keyword:"API, PHP, REST",
+        	desc:"Men's Body Building and Health",
+            url:"http://www.mh.co.za/",
+            keyword:"Wordpress, PHP, SSL,Google Analytics, YouTube, Typography, Google Maps",
             role:""
         }
+
 
  /*
         ,
@@ -490,10 +508,9 @@ mainApp.service('dbService', function() {
 		if (key != "index")
 			urlItems[key] = false;
 	urlItems.url = true;
-	urlItems.role = true;
-	
+		
     var endings = ["Best.", "All Best.", "Best Wishes.", "Best Regards.", "Thanks!", "Thanks so much!"];
-    var myNames = ["Solafort.", "Covernal.", "Li, LiaoMing.", ""];
+    var myNames = ["Solafort.", "Covernal.", "Li, LiaoMing.", "David Lorenz.", ""];
     var greatings = ["Hi", "Dear", "Hello", ""];
 	var denoms = ["Sir", "Mr.", "Dr.", "Mis.", ""];
 	var years = [
@@ -509,10 +526,11 @@ mainApp.service('dbService', function() {
     ];
 
     var skillDescriptions = [
-    	"I have experience in %s.", // I have experience in Java
+    	"I have %y experience in %s.", // I have 4 years of experience in Java.
     	"I have %y experience as a %s developer.", // I have a 3 years of work experience as a Java developer.
     	"I am a %s developer with %y experience.", // I am a Java developer with 4.5 years of experience.
-    	"I have %y experience in %s.", // I have 4 years of experience in Java.
+    	"I have experience in %s.", // I have experience in Java
+    	"I specialize in %s.",
     	"I always follow %s.", // I follow standard Java coding conventions.
     	"I always comply with %s.", // I comply with the Google Java Standard.
     	"I have proficient %s skills.",
@@ -521,7 +539,7 @@ mainApp.service('dbService', function() {
     ];
 
     var titles = [
-		"Related results",
+		"Related my results",
 		"My results",
 		"Please check my results",
 		""

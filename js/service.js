@@ -76,7 +76,7 @@ mainApp.service('forewordService', function(dbService) {
 mainApp.service('afterwordService', function(dbService) {
     
     var ending = dbService.endings[0];
-    var myName = dbService.myNames[0];
+    var myName = dbService.myNames[dbService.myNames.length-1];
 
     var setEnding = function(_ending) {
         ending = _ending;
@@ -220,7 +220,7 @@ mainApp.service('descriptionService', function(dbService) {
 
 mainApp.service('urlService', function(dbService) {
 
-    var title = dbService.titles[dbService.titles.length-1];
+    var title = dbService.titles[dbService.titles.length-2];
     var urls = [];
     var filters = [];
     var urlItemShows = dbService.urlItems;
@@ -263,16 +263,17 @@ mainApp.service('urlService', function(dbService) {
         urlComment = "";
 
         if (title.length > 0)
-            urlComment = " " + title + "\n";
+            urlComment = "- " + title + "\n";
 
         if (urls.length > 0)
         {
             urls.forEach(function(item){
-                urlComment = urlComment + "-------------------------------------------\n";
+                //urlComment = urlComment + "-------------------------------------------\n";
                 for (var prop in urlItemShows)
                     if (urlItemShows[prop] == true)
                     {
-                        urlComment = urlComment + prop.toUpperCase() + " : " + item[prop] + "\n";
+                        //urlComment = urlComment + prop.toUpperCase() + " : " + item[prop] + "\n";
+                        urlComment += item[prop] + "\n";
                     }
             });
         }
